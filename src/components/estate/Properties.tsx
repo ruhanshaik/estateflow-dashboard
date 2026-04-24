@@ -29,7 +29,7 @@ export function Properties() {
 
   // form state
   const [form, setForm] = useState({
-    title: "", address: "", city: "Miami", type: "House" as Property["type"],
+    title: "", address: "", city: "Gandhi Nagar", type: "House" as Property["type"],
     price: "", beds: "", baths: "", sqft: "",
   });
 
@@ -50,7 +50,7 @@ export function Properties() {
     };
     setItems([newProp, ...items]);
     setOpen(false);
-    setForm({ title: "", address: "", city: "Miami", type: "House", price: "", beds: "", baths: "", sqft: "" });
+    setForm({ title: "", address: "", city: "Gandhi Nagar", type: "House", price: "", beds: "", baths: "", sqft: "" });
   };
 
   return (
@@ -159,7 +159,7 @@ export function Properties() {
           </div>
           <Field label="City">
             <Select value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })}>
-              {["Miami", "New York", "Los Angeles", "Austin", "Chicago"].map((c) => <option key={c}>{c}</option>)}
+              {["Gandhi Nagar", "Cowl Bazaar", "Brucepet", "Moka Road", "Parvathi Nagar", "Allipuram", "Hospet Road", "Sandur Road", "Cantonment"].map((c) => <option key={c}>{c}</option>)}
             </Select>
           </Field>
           <Field label="Type">

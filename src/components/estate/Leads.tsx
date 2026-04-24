@@ -149,7 +149,7 @@ export function Leads() {
           <Field label="Phone"><Input value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} /></Field>
           <Field label="Budget (USD)"><Input type="number" value={form.budget} onChange={(e) => setForm({ ...form, budget: e.target.value })} /></Field>
           <div className="sm:col-span-2">
-            <Field label="Interested in"><Input value={form.interestedIn} onChange={(e) => setForm({ ...form, interestedIn: e.target.value })} placeholder="Apartment, Miami" /></Field>
+            <Field label="Interested in"><Input value={form.interestedIn} onChange={(e) => setForm({ ...form, interestedIn: e.target.value })} placeholder="Apartment, Gandhi Nagar" /></Field>
           </div>
           <Field label="Status">
             <Select value={form.status} onChange={(e) => setForm({ ...form, status: e.target.value as LeadStatus })}>
