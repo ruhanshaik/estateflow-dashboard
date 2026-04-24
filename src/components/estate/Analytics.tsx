@@ -10,8 +10,8 @@ const COLORS = ["#3b82f6", "#10b981", "#1e3a8a", "#f59e0b"];
 export function Analytics() {
   const metrics = [
     { label: "Avg Days to Sell", value: "38", icon: Clock, sub: "↓ 6 days vs last quarter" },
-    { label: "Cost per Lead", value: "$24.80", icon: DollarSign, sub: "↓ 12% efficient" },
-    { label: "Best Performing City", value: "Miami", icon: MapPin, sub: "28 active listings" },
+    { label: "Cost per Lead", value: "₹2,050", icon: DollarSign, sub: "↓ 12% efficient" },
+    { label: "Best Performing Area", value: "Gandhi Nagar", icon: MapPin, sub: "28 active listings" },
   ];
 
   return (
