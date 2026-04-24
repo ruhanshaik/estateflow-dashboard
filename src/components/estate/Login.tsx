@@ -65,7 +65,7 @@ export function Login({ onSuccess }: LoginProps) {
             <div className="grid grid-cols-3 gap-4 pt-4">
               {[
                 { v: "12K+", l: "Listings" },
-                { v: "$4.8B", l: "Closed" },
+                { v: "₹4,800 Cr", l: "Closed" },
                 { v: "98%", l: "Retention" },
               ].map((s) => (
                 <div key={s.l} className="rounded-2xl bg-primary-foreground/10 p-4 backdrop-blur">

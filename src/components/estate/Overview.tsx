@@ -14,7 +14,7 @@ const KPIS = [
   { label: "Active Listings", value: "156", delta: "+8", icon: TrendingUp, tone: "emerald" },
   { label: "New Leads (Month)", value: "67", delta: "+24%", icon: Users, tone: "accent" },
   { label: "Deals Closed", value: "31", delta: "+5", icon: CheckCircle2, tone: "emerald" },
-  { label: "Revenue (Quarter)", value: "$12.8M", delta: "+18%", icon: DollarSign, tone: "accent" },
+  { label: "Revenue (Quarter)", value: "₹12.8 Cr", delta: "+18%", icon: DollarSign, tone: "accent" },
   { label: "Upcoming Visits", value: "14", delta: "this week", icon: CalendarClock, tone: "emerald" },
 ];
 

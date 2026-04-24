@@ -91,10 +91,10 @@ export function Properties() {
           <div className="md:col-span-2">
             <Select value={priceRange} onChange={(e) => setPriceRange(e.target.value)}>
               <option value="">Any price</option>
-              <option value="0-500000">Under $500K</option>
-              <option value="500000-1000000">$500K – $1M</option>
-              <option value="1000000-2000000">$1M – $2M</option>
-              <option value="2000000-99999999">$2M+</option>
+              <option value="0-5000000">Under ₹50 L</option>
+              <option value="5000000-10000000">₹50 L – ₹1 Cr</option>
+              <option value="10000000-20000000">₹1 Cr – ₹2 Cr</option>
+              <option value="20000000-999999999">₹2 Cr+</option>
             </Select>
           </div>
         </div>
